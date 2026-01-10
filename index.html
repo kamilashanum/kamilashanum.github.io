@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PT. Garda Bhakti Nusantara</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">PT. Garda Bhakti Nusantara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="gbn.png" alt="PT. Garda Bhakti Nusantara" width="180" />
+      <h1 class="display-4">PT. Garda Bhakti Nusantara</h1>
+      <p>Jl. Kolonel Sugiono No.12-12 A Medan, Sumatera Utara 20151, Indonesia | No. Telp. 0614533139</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L8,144C16,160,32,192,48,181.3C64,171,80,117,96,101.3C112,85,128,107,144,133.3C160,160,176,192,192,186.7C208,181,224,139,240,138.7C256,139,272,181,288,202.7C304,224,320,224,336,234.7C352,245,368,267,384,240C400,213,416,139,432,144C448,149,464,235,480,250.7C496,267,512,213,528,192C544,171,560,181,576,208C592,235,608,277,624,298.7C640,320,656,320,672,304C688,288,704,256,720,234.7C736,213,752,203,768,202.7C784,203,800,213,816,218.7C832,224,848,224,864,192C880,160,896,96,912,101.3C928,107,944,181,960,192C976,203,992,149,1008,144C1024,139,1040,181,1056,170.7C1072,160,1088,96,1104,74.7C1120,53,1136,75,1152,80C1168,85,1184,75,1200,58.7C1216,43,1232,21,1248,37.3C1264,53,1280,107,1296,133.3C1312,160,1328,160,1344,154.7C1360,149,1376,139,1392,160C1408,181,1424,235,1432,261.3L1440,288L1440,320L1432,320C1424,320,1408,320,1392,320C1376,320,1360,320,1344,320C1328,320,1312,320,1296,320C1280,320,1264,320,1248,320C1232,320,1216,320,1200,320C1184,320,1168,320,1152,320C1136,320,1120,320,1104,320C1088,320,1072,320,1056,320C1040,320,1024,320,1008,320C992,320,976,320,960,320C944,320,928,320,912,320C896,320,880,320,864,320C848,320,832,320,816,320C800,320,784,320,768,320C752,320,736,320,720,320C704,320,688,320,672,320C656,320,640,320,624,320C608,320,592,320,576,320C560,320,544,320,528,320C512,320,496,320,480,320C464,320,448,320,432,320C416,320,400,320,384,320C368,320,352,320,336,320C320,320,304,320,288,320C272,320,256,320,240,320C224,320,208,320,192,320C176,320,160,320,144,320C128,320,112,320,96,320C80,320,64,320,48,320C32,320,16,320,8,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Kontak</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                <strong>Selamat!</strong> Pesan kamu sudah diterima.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama"/>
+              </div>
+              <div class="mb-3">
+                <label for="nik" class="form-label">NIK KTP</label>
+                <input type="text" class="form-control" id="nik" aria-describedby="nik" name="nik"/>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="whatsapp" aria-describedby="email" name="email"/>
+              </div>
+              <div class="mb-3">
+                <label for="nohp" class="form-label">No. Handphone</label>
+                <input type="text" class="form-control" id="nohp" aria-describedby="nohp" name="nohp"/>
+              </div>
+              <div class="mb-3">
+                <label for="ibukandung" class="form-label">Nama Lengkap Ibu Kandung</label>
+                <input type="text" class="form-control" id="ibukandung" aria-describedby="ibukandung" name="ibukandung"/>
+              </div>
+              <div class="mb-3">
+                <label for="kawin" class="form-label">Status Perkawinan</label>
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="kawin">
+                <option selected>Pilih salah satu saja</option>
+                <option value="TK (Tidak Kawin)">TK (Tidak Kawin)</option>
+                <option value="K0 (Kawin Anak 0)">K0 (Kawin Anak 0)</option>
+                <option value="K1 (Kawin Anak 1)">K1 (Kawin Anak 1)</option>
+                <option value="K2 (Kawin Anak 2)">K2 (Kawin Anak 2)</option>
+                <option value="K3 (Kawin Anak 3>)">K3 (Kawin Anak 3>)</option>
+              </select>
+              </div><p></p>
+              <div class="mb-3">
+                <label for="tamatan" class="form-label">Tamatan</label>
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="tamatan">
+                <option selected>Pilih salah satu saja</option>
+                <option value="SMA">SMA</option>
+                <option value="SMK">SMK</option>
+                <option value="D3">D3</option>
+                <option value="S1/D3">S1/D4</option>
+              </select>
+              </div><p></p>
+              <div class="mb-3">
+                <label for="jurusan" class="form-label">Jurusan</label>
+                <input type="text" class="form-control" id="jurusan" aria-describedby="jurusan" name="jurusan"/>
+              </div><p></p>
+              <div class="mb-3">
+                <label for="jabatan" class="form-label">Jabatan</label>
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="jabatan">
+                <option selected>Pilih salah satu saja</option>
+                <option value="SECURITY">SECURITY</option>
+                <option value="HELPER">HELPER</option>
+                <option value="DRIVER">DRIVER</option>
+                <option value="CLEANING SERVICE">CLEANING SERVICE</option>
+                <option value="ADMIN">ADMIN</option>
+                <option value="SALES">SALES</option>
+              </select><p></p>
+              <div class="mb-3">
+                <label for="lokasi" class="form-label">Lokasi Penugasan/Penempatan</label>
+                <input type="text" class="form-control" id="lokasi" aria-describedby="lokasi" name="lokasi"/>
+              </div>
+              <button type="submit" class="btn btn-primary mb-3 btn-kirim">Kirim</button>
+              <button class="btn btn-primary mb-3 btn-loading d-none" type="button" disabled>
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Kirim
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-danger text-white text-center p-1">
+      <p>Created by <a href="https://www.facebook.com/silverituricky" class="text-white fw-bold">RiCkY</p>
+    </footer>
+    <!-- Akhir Foooter -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- script googlesheet -->
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOWOnQKs_-0pq07BbZkisMIjnEtpyGlPUGyONUIUBzQYm6JCgvt1QT4NRAIazefWfl/exec'
+    const form = document.forms['contact-form']
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit di klik
+        // tampilkan tombol loading, hilangkan tombil kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+  </body>
+</html>
