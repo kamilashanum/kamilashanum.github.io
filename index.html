@@ -13,9 +13,9 @@
 
     <title>PT. Garda Bhakti Nusantara</title>
   </head>
-  <body>
+  <body id="Beranda">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">PT. Garda Bhakti Nusantara</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="#Beranda">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontak</a>
+              <a class="nav-link" href="#contact">Kontak</a>
             </li>
           </ul>
         </div>
@@ -60,7 +60,7 @@
             </div>
             <form name="contact-form">
               <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap Sesuai KTP</label>
+                <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="nama"/>
               </div>
               <div class="mb-3">
@@ -72,7 +72,7 @@
                 <input type="email" class="form-control" id="whatsapp" aria-describedby="email" name="email"/>
               </div>
               <div class="mb-3">
-                <label for="nohp" class="form-label">No. Handphone (Isi dengan awalan +62)</label>
+                <label for="nohp" class="form-label">No. Handphone</label>
                 <input type="text" class="form-control" id="nohp" aria-describedby="nohp" name="nohp"/>
               </div>
               <div class="mb-3">
@@ -82,7 +82,7 @@
               <div class="mb-3">
                 <label for="kawin" class="form-label">Status Perkawinan</label>
               <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="kawin">
-                <option selected>Pilih salah satu</option>
+                <option selected>Pilih salah satu saja</option>
                 <option value="TK (Tidak Kawin)">TK (Tidak Kawin)</option>
                 <option value="K0 (Kawin Anak 0)">K0 (Kawin Anak 0)</option>
                 <option value="K1 (Kawin Anak 1)">K1 (Kawin Anak 1)</option>
@@ -93,7 +93,7 @@
               <div class="mb-3">
                 <label for="tamatan" class="form-label">Tamatan</label>
               <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="tamatan">
-                <option selected>Pilih salah satu</option>
+                <option selected>Pilih salah satu saja</option>
                 <option value="SMA">SMA</option>
                 <option value="SMK">SMK</option>
                 <option value="D3">D3</option>
@@ -107,7 +107,7 @@
               <div class="mb-3">
                 <label for="jabatan" class="form-label">Jabatan</label>
               <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="jabatan">
-                <option selected>Pilih salah satu</option>
+                <option selected>Pilih salah satu saja</option>
                 <option value="SECURITY">SECURITY</option>
                 <option value="HELPER">HELPER</option>
                 <option value="DRIVER">DRIVER</option>
